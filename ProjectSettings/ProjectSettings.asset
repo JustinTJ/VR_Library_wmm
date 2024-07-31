@@ -162,6 +162,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.VR_Test02_wmm
+    Standalone: com.DefaultCompany.VR-Test02-wmm
   buildNumber:
     Standalone: 0
     VisionOS: 0
