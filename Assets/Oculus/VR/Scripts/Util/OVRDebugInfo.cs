@@ -333,7 +333,8 @@ public class OVRDebugInfo : MonoBehaviour
         texts.AddComponent<CanvasRenderer>();
         texts.AddComponent<Text>();
         texts.GetComponent<RectTransform>().sizeDelta = new Vector2(350f, 50f);
-        texts.GetComponent<Text>().font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
+        // texts.GetComponent<Text>().font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
+        texts.GetComponent<Text>().font = Resources.GetBuiltinResource(typeof(Font), "LegacyRuntime.ttf") as Font;
         texts.GetComponent<Text>().alignment = TextAnchor.MiddleCenter;
 
         texts.transform.SetParent(GO.transform);
