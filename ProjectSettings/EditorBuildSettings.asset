@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 5e806782e45a3364fac02c2a6ddc97ad
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
-    guid: 401d549529eaf7d418ddee0948892745
+    path: Assets/Scenes/TestSpeech.unity
+    guid: 08740ff05c231de4cbf5bf8297228f80
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b63bdaaf3e1e70f42848bb2c430f3077, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6b00b96a14cc6904794fa398f33ef8d2, type: 2}
