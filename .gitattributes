@@ -1,0 +1,2 @@
+/Assets/ZFBrowser/Plugins/l64/zf_cef.so filter=lfs diff=lfs merge=lfs -text
+/Assets/ZFBrowser/Plugins/w64/zf_cef.dll filter=lfs diff=lfs merge=lfs -text
