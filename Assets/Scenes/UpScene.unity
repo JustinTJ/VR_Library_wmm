@@ -383,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740278591}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -596.0455, y: 88.9745, z: -109.42055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -468,6 +468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonComm
       objectReference: {fileID: 0}
+    - target: {fileID: 6233554321180214685, guid: 92088351ff089114abf8a084e9293e08, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6818856176088238489, guid: 92088351ff089114abf8a084e9293e08, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -519,6 +523,26 @@ PrefabInstance:
     - target: {fileID: 6818856176088238489, guid: 92088351ff089114abf8a084e9293e08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959538586168079485, guid: 92088351ff089114abf8a084e9293e08, type: 3}
+      propertyPath: m_text
+      value: User_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959538586168079485, guid: 92088351ff089114abf8a084e9293e08, type: 3}
+      propertyPath: m_fontSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959538586168079485, guid: 92088351ff089114abf8a084e9293e08, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959538586168079485, guid: 92088351ff089114abf8a084e9293e08, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9075452433405334058, guid: 92088351ff089114abf8a084e9293e08, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1048,9 +1072,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 704913522}
   - {fileID: 2002576658}
-  - {fileID: 2017954718}
-  - {fileID: 1705289071}
   - {fileID: 1360828593}
   - {fileID: 1844187386}
-  - {fileID: 951669577}
   - {fileID: 740278593}
+  - {fileID: 1705289071}
+  - {fileID: 2017954718}
+  - {fileID: 951669577}
