@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 5e806782e45a3364fac02c2a6ddc97ad
+    path: Assets/Scenes/UpScene.unity
+    guid: 0e6c58a39dd11b24fbd832ee9d1df52b
   - enabled: 1
-    path: Assets/Scenes/TestSpeech.unity
-    guid: 08740ff05c231de4cbf5bf8297228f80
+    path: Assets/Scenes/DownScene.unity
+    guid: 346b4604591fca14ca29eba9f6141d0e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b63bdaaf3e1e70f42848bb2c430f3077, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6b00b96a14cc6904794fa398f33ef8d2, type: 2}
