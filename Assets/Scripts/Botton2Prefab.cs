@@ -9,10 +9,14 @@ public class ButtonToPrefabSwitch : MonoBehaviour
     private GameObject instanceB;
     private int clickCount = 0; // Counter to track the number of clicks
 
-    void Start()
+    private void OnEnable()
     {
-        // Add listener to buttonA
         buttonA.onClick.AddListener(OnButtonAClicked);
+    }
+
+    private void OnDisable()
+    {
+        buttonA.onClick.RemoveListener(OnButtonAClicked);
     }
 
     void OnButtonAClicked()

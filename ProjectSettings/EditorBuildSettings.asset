@@ -8,7 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UpScene.unity
     guid: 0e6c58a39dd11b24fbd832ee9d1df52b
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Samples/Meta XR Core SDK/68.0.1/Sample Scenes/TrackedKeyboard.unity
+    guid: eb540761693b1de438733a3581e21f58
+  - enabled: 0
+    path: Assets/Scenes/TrackedKeyboard.unity
+    guid: a0f31f43e322c7c46bfd567104d54132
+  - enabled: 0
+    path: Assets/Scenes/PassthroughBasicWith BB.unity
+    guid: 73e2f1f18972851438b6b891638eea53
+  - enabled: 0
     path: Assets/Scenes/DownScene.unity
     guid: 346b4604591fca14ca29eba9f6141d0e
   m_configObjects:
